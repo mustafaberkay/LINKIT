@@ -15,6 +15,11 @@ Quesitons to be asked
 <br>-Data in transit means that your data is transferred from one point to other. If you transmit your data without securing, it attracts the hackers who want to access your data. So I would use some technics, for example, data can be secured in transit between an application and Azure by using Client-Side Encryption, HTTPS, or SMB 3.0.
 <br>-Also even your data is at rest it does not mean that you are secure. So, I would also encrypt the data at rest as well.
 
+<br>Another feature that Microsoft Azure provides us is that you can monitor the Logs in Storage Account. This includes data reading and writing as well. So step by step:
+<br>-In the Azure portal, select Storage accounts, then the name of the storage account to open the storage account blade.
+<br>-Select Diagnostics in the MONITORING section of the menu blade.
+<br>-Ensure Status is set to On, and select the services for which you'd like to enable logging. (In our case It is Writing)
+<br>-Click Save.
 ## VNet-to-VNet
 
 I did X because of Y...
