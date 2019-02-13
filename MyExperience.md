@@ -1,6 +1,9 @@
 #My experience and further notes
 
-Firstly, I have to say that I did not have any experience in cloud computing before. When I saw the assignment, I was surprised a bit. However, I made lots of research on it and tried to do my best. Trying to work on a topic that I did not experience is a great challenge for me to overcome ant it is a great chance of improving myself. Also, I understood the importance of cloud computing in data engineering when I was reading Blob Storages which contains unstructured data. Thank you for giving me this chance.
+Firstly, I have to say that I did not have any experience in cloud computing before. When I saw the assignment, I was surprised a bit. However, I made lots of research on it and tried to do my best. Trying to work on a topic that I did not experience is a great challenge for me to overcome and it is a great chance of improving myself. Also, I understood the importance of cloud computing in data engineering when I was reading Blob Storages which contains unstructured data. Thank you for giving me this chance.
+<br> References:
+<br> PluralSight: Creating and Configuring Microsoft Azure Storage Accounts by Neil Morrissey
+<br> Microsoft Azure Docs
 
 ## Azure Storage Account
 
