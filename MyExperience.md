@@ -38,7 +38,8 @@ In general there are two reasons to create VNet-to-VNet and these are:
 
 ### Application Gateway
 
-I did A because of B...
-<br>I had issues with C...
-<br>I liked doing D...
+Azure Application Gateway gives you application-level routing and load balancing services that let you build a scalable and highly-available web front end in Azure. You control the size of the gateway and scale your deployment based on your needs.
+<br>If you want to protect your application from common web vulnerabilities and exploits like SQL Injection or Cross site scripting or customize rules to reduce false positives.
+<br>With the Application Gateway you can be even more specific. For example, you can route traffic based on the incoming URL. So if /images is in the incoming URL, you can route traffic to a specific set of servers (known as a pool) configured for images. If /video is in the URL, that traffic is routed to another pool optimized for videos.
+
 
