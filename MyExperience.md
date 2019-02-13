@@ -4,10 +4,16 @@ Put here general information about the steps you took, what you liked, disliked,
 
 ## Azure Storage Account
 
-Quesitons to be asked:
-<br>I did T because of U...
-<br>I had issues with V...
-<br>I liked doing R...
+Quesitons to be asked
+<br>1) Which kind of Storage Account do you want? (General Purpose v1, General Purpose v2 or Blob Storage)
+<br>2) Do you want to use your own access keys?
+<br>3) Do you want your data tobe accessed only from your network or through Virtual Networks?
+<br>4) Do you want to replicate your Storage Account?
+<br> From the configuration menu under the settings portal I can configure the Deployment model, Performance, Account kind, Replication etc. For securing an Azure Storage Account, there are several ways to do depending on your need:
+<br>-with Microsoft Azure I can automatically encrypt all of your data written to Azure Storage by using Storage Service Encryption (SSE).
+<br>-I would assign Role-Based Access Control (RBAC) roles scoped to the storage account to security principals and use Azure AD to authorize resource management operations such as key management.
+<br>-Data in transit means that your data is transferred from one point to other. If you transmit your data without securing, it attracts the hackers who want to access your data. So I would use some technics, for example, data can be secured in transit between an application and Azure by using Client-Side Encryption, HTTPS, or SMB 3.0.
+<br>-Also even your data is at rest it does not mean that you are secure. So, I would also encrypt the data at rest as well.
 
 ## VNet-to-VNet
 
